@@ -56,9 +56,18 @@ In this example the SVG attributes are updated with the {{cssxref("link-paramete
 
 ```html
 <div class="squares">
-  <img class="original" src="square.svg" alt="A square with a chartreuse border and a dark green fill." />
-  <img class="greyscale" src="square.svg" alt="A square with a slate grey border and a light grey fill." />
-  <img class="high-contrast" src="square.svg" alt="A square with a fuchsia border and a yellow fill." />
+  <img
+    class="original"
+    src="square.svg"
+    alt="A square with a chartreuse border and a dark green fill." />
+  <img
+    class="greyscale"
+    src="square.svg"
+    alt="A square with a slate grey border and a light grey fill." />
+  <img
+    class="high-contrast"
+    src="square.svg"
+    alt="A square with a fuchsia border and a yellow fill." />
 </div>
 ```
 
