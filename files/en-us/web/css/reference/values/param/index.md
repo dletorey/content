@@ -56,9 +56,9 @@ In this example the SVG attributes are updated with the {{cssxref("link-paramete
 
 ```html
 <div class="squares">
-  <img class="original" src="square.svg" />
-  <img class="greyscale" src="square.svg" />
-  <img class="high-contrast" src="square.svg" />
+  <img class="original" src="square.svg" alt="A square with a chartreuse border and a dark green fill." />
+  <img class="greyscale" src="square.svg" alt="A square with a slate grey border and a light grey fill." />
+  <img class="high-contrast" src="square.svg" alt="A square with a fuchsia border and a yellow fill." />
 </div>
 ```
 
@@ -106,7 +106,7 @@ In this example the SVG attributes are updated by passing the `param()` function
 ```html-nolint
 <img
   src="square.svg#param(--color1, slategrey)&param(--color2, lightgrey)"
-  alt="greyscale version of square"
+  alt="A square with a slate grey border and a light grey fill."
 />
 ```
 
